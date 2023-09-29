@@ -16,3 +16,5 @@ Step 4: In this step, we have to configure AWS. So, use the command "aws configu
 Step 5: The next step is to create a file in which we are going to write our bash script. Use the command "vim name-of-file.sh", Example: vim aws_resource_tracker.sh. Write the script in this file and save it. You can use my file for basic understanding or you can create your own file. In this file, we have to pass some bash script commands which will give us an idea about the usage of AWS resources. If you are new to this you can go to AWS CLI documentation. There is no need to mug up the command, everything is available in a proper manner.
 
 Step 6: Now this is the last step, here we have run the script to get an output. So, for that use the command "/.name-of-file.sh". This command will show you all the outputs that were written in that bash script file. Example: ./aws_resource_tracker.sh, in such an easy way you can write your basic script for getting usage of AWS resources.
+
+After all this process, do not forget to stop/terminate the EC2 instance on the AWS console.
